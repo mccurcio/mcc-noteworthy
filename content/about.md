@@ -10,7 +10,7 @@ During my early graduate school days, I studied under a professor who worked wit
 
 This broad-minded approach has stayed with me. 
 
-Since leaving biotechnology, I applied for a teaching certificate in Rhode Island and taught with students k-12. I have taught mathematics, biology, physics and chemistry.
+Since leaving biotechnology, I applied for a teaching certificate in Rhode Island and taught with students K-12. I have taught mathematics, biology, physics and chemistry.
 
 After teaching for a number of years I realized that I loved science too much to leave it. So I applied to graduate school again. This time I was interested in studying Bioinformatics. From this point, I became interested into Data Science.
 
@@ -19,14 +19,15 @@ and a member of the [Providence Data Science Project](https://www.meetup.com/Pro
 
 Here is my resume. [Resume](Open resume in new window)
 
-Contact & Hire:
+Contact & Hire,
 
-1. Matthew Curcio  
-2. Rhode Island, USA  
-3. matt . curcio . ri @ gmail . com [_delete spaces_]
+**Matthew Curcio**   
+matt . curcio . ri @ gmail . com [_delete spaces_]
 
-* Providence is 1 hr to Boston by the [MBTA commuter rail](https://www.mbta.com/schedules/CR-Providence/timetable?direction_id=1) or via 95 North.   
-* New York is 3 hr by either car, bus or train.
+---
+
+*Providence is 1 hr to Boston by the [MBTA commuter rail](https://www.mbta.com/schedules/CR-Providence/timetable?direction_id=1) or via 95 North.   
+New York is 3 hr via car, bus or train.*
 
 ![Providence is centrally located in southern New England.](/pvd.ri.png)
 
