@@ -1,22 +1,24 @@
-baseURL = "https://example.com"
+baseURL = "https://mcc1.netlify.com/"
 languageCode = "en-us"
-title = "Noteworthy"
+title = "Matthew Curcio"
 theme = "hugo-theme-noteworthy"
 enableRobotsTXT = true
 paginate = 4 # Set the number of posts to show before overflowing to the next page.
 summaryLength = 10 # Configure how long the post summary should be on the homepage.
 
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
 # Add your Google Analytics identifier: UA-XXXXXXXX-X
-googleAnalytics = "" 
+googleAnalytics = "UA-161598868-1" 
 
 # Add your Disqus shortname here.
 disqusShortname = ""    
 
 [taxonomies]
-  tag = "tags"
+tag = "tags"
 
 [author]
-	name = "kimcc"
+name = "mcc"
 
 # Set to false to disallow raw HTML in markdown files
 [markup.goldmark.renderer]
@@ -25,44 +27,16 @@ disqusShortname = ""
 [params]
 	math = true
 	# Blog description at the top of the homepage. Supports markdown.
-	description = "Noteworthy is a minimalist Hugo theme, perfect for writers and bloggers."
+	description = "Scientist, Teacher & Student of R & Python programmer, focusing on Machine Learning, Biochemistry, Biotechnology with my sights set on Data Science."
 
 	# Add links to your accounts. Remove the ones you don't want to include.
 	# Main
-	email = "#"
-    facebook = "#"
-    twitter = "#"
-	instagram = "#"
-	tumblr = "#"
-	reddit = "#"
-	pinterest = "#"
-	youtube = "#"
-    vimeo = "#"
-	weibo = "#"
-	vk = "#"
-	linkedin = "#"
-
-	# Writing
-    medium = "#"
-	blogger = "#"
-	wordpress = "#"
-
-	# Creative & Visual
-    dribbble = "#"
-	behance = "#"
-	deviantart = "#"
-	flickr = "#"
-
-	# Programming
-    github = "#"
-	stackoverflow = "#"
-	gitlab = "#"
-	codepen = "#"
-
-    # Academic
-    googlescholar = "#"
-    impactstory = "#"
-    orcid = "#"  
+	email = "mailto:matt.curcio.ri@gmail.com"
+    twitter = "https://www.twitter.com/oaxacamatt1"
+	youtube = "https://www.youtube.com/channel/UCkIkc77YacDWe1ieUFpMsFQ"
+	linkedin = "https://www.linkedin.com/in/mattcurcio/"
+    github = "https://www.github.com/mccurcio"
+	stackoverflow = "https://stackoverflow.com/users/851043/oaxacamatt"
 
 # Menu links along the sidebar navigation.
 [[menu.main]]

@@ -1,0 +1,1 @@
+options(sevr.daemon = TRUE) # Starts Hugo LiveReload
