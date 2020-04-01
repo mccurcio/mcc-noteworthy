@@ -4,21 +4,29 @@ title: About
 type: section
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE). Hugo supports TOML, YAML, and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+I have a broad background and believe that this works to my advantage.
 
-Hugo makes use of a variety of open source projects including:
+During my early graduate school days, I studied under a professor who worked with mammalian cell culture, biochemical tests, immunological tests all in a broad-minded Chemistry department. Since that time, I have worked in several sucessful biotechnology companies. 
 
-* [Blackfriday](https://github.com/russross/blackfriday)
-* [Chroma](https://github.com/alecthomas/chroma)
-* [Smartcrop](https://github.com/muesli/smartcrop)
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
+This broad-minded approach has stayed with me. 
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+Since leaving biotechnology, I applied for a teaching certificate in Rhode Island and taught with students k-12. I have taught mathematics, biology, physics and chemistry.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+After teaching for a number of years I realized that I loved science too much to leave it. So I applied to graduate school again. This time I was interested in studying Bioinformatics. From this point, I became interested into Data Science.
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+I am currently a Co-Organizer for [WebDev RI](https://www.meetup.com/webdevri/),   
+and a member of the [Providence Data Science Project](https://www.meetup.com/Providence-Data-Science-Project/).
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Here is my resume. [Resume](Open resume in new window)
+
+Contact & Hire:
+
+1. Matthew Curcio  
+2. Rhode Island, USA  
+3. matt . curcio . ri @ gmail . com [_delete spaces_]
+
+* Providence is 1 hr to Boston by the [MBTA commuter rail](https://www.mbta.com/schedules/CR-Providence/timetable?direction_id=1) or via 95 North.   
+* New York is 3 hr by either car, bus or train.
+
+![Providence is centrally located in southern New England.](/pvd.ri.png)
 
