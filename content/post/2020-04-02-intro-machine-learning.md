@@ -3,14 +3,6 @@ title: "Introduction to Bioinformatics / Data Science"
 date: 04/02/2020
 ---
 
-
-```{r 11, include=FALSE, cache=TRUE}
-library(knitr)
-knitr::opts_chunk$set(cache=TRUE, fig.pos="center")
-```
-
-# Introduction - What is Machine Learning?
-
 At the intersection between Applied Mathematics, Computer Science, and Biological Sciences is a subset of knowledge known as Bioinformatics. Some find Bioinformatics and its cousin Data Science difficult to define. However, the most ubiquitous pictograph of Bioinformatics and Data Science may say a thousand words even if we cannot. See Figure 1. What separates these two pursuits is the domain knowledge that each focus on. Where Data Science may focus on understanding buying habits of individuals, Bioinformatics tends to focus on the understanding of DNA and its relevance to disease. It is now common to find new fields emerging such as the study of chemistry using applied mathematics and computers which beget the field of Chemo-informatics.[^15] [^16] Today, since hospitals are warehouses of modern medical records and knowledge they make career paths such as Healthcare-Informatics possible.[^17]
 
 [^15]:https://www.acs.org/content/acs/en/careers/college-to-career/chemistry-careers/cheminformatics.html
@@ -18,8 +10,8 @@ At the intersection between Applied Mathematics, Computer Science, and Biologica
 [^16]:https://jcheminf.biomedcentral.com/
 
 [^17]:https://www.usnews.com/education/best-graduate-schools/articles/2014/03/26/consider-pursuing-a-career-in-health-informatics
- 
-![Venn Diagrams of Bioinformatics And Data Science](./00-data/10-images/Venn-diagram-original-768x432.png)
+
+![Venn Diagrams of Bioinformatics And Data Science](../10-images/Venn-diagram-original-768x432.png)
 
 [^11]
 
@@ -87,7 +79,7 @@ Due to the fact this paper only uses Supervised & Unsupervised learning and for 
 
 ### Supervised Learning
 
-In supervised learning, data consists of observations $x_i$ (where $X$ may be a matrix of $\Re$ values) AND a corresponding label, $y_i$. The label $y$ maybe anyone of $C$ classes. In our case of a binary classifier, we have {'Is myoglobin', 'Is control'}.
+In supervised learning, data consists of observations $x_i$ (where $X$ may be a matrix of $\Re$ values) AND a corresponding label, $y_i$. The **label** $y$ maybe anyone of $C$ classes. In our case of a binary classifier, we have {'Is myoglobin', 'Is control'}.
 
 **Data set**:
 
@@ -103,7 +95,7 @@ For the K-NN algorithm to function, the data optimally most be complete with a s
 
 Five of the six algorithms that this report investigates are supervised. Logit, support vector machines, and the neural network that I have chosen require labels for the classification process.
 
-![Example of K-Nearest-Neighbor](./00-data/10-images/K-Nearest-Neighbor.50.png)
+![Example of K-Nearest-Neighbor](./data/10-images/K-Nearest-Neighbor.50.png)
 
 [^112]
 
@@ -139,7 +131,7 @@ Principal Component Analysis is an example of unsupervised learning, which we di
 
 Among the simplest unsupervised learning algorithms is K-means. K-means does not rely on the class labels of the dataset at all. K-means may be used to determine any number of classes despite any predetermined values. K-means can discover clusters later used in classification or hierarchical feature representation. K-means has several alternative methods but, in general, calculates the distance (or conversely the similarity) of observations to a mean value of the $K$th grouping. The mean value is called the center of mass, the Physics term that provides an excellent analogy since the center of mass is a weighted average. By choosing a different number of groupings (values of $K$, much like the K-NN), then comparing the grouping by a measure of accuracy, one example being, mean square error. 
 
-![Example of K-Means](./00-data/10-images/k-means-2.50.png)
+![Example of K-Means](./data/10-images/k-means-2.50.png)
 
 [^115]
 
@@ -171,7 +163,7 @@ E \left[ \left( y_0 - \hat f(x_0) \right )^2 \right ] = Var ( \hat f(x_0)) + \le
 
 ---
 
-![Bias-Variance Tradeoff](./00-data/10-images/bias-variance-tradeoff.50.png)
+![Bias-Variance Tradeoff](./data/10-images/bias-variance-tradeoff.50.png)
 
 The bias-variance dilemma can be stated as follows.[^67]
 
@@ -214,7 +206,7 @@ The data for this study is from the Uniprot database. From the Uniprot database 
 
 The Exploratory Data Analysis determines if features were skewed and needed must be transformed. In a random system where amino acids were chosen at random, one would expect the percent amino acid composition to be close to 5%. However, this is far from the case for the Myoglobin proteins or the control protein samples. On top of this the differences between the myoglobin and control proteins can be as high as approximately 5% with the amino acid Lysine, K.
 
-![Mean Percent Amino Acid Compositions For Control And Myoglobin](./00-data/10-images/c_m_Mean_AAC.png)
+![Mean Percent Amino Acid Compositions For Control And Myoglobin](./data/10-images/c_m_Mean_AAC.png)
 
 ### Exploratory Data Analysis (EDA)
 
@@ -230,7 +222,7 @@ Testing determined earlier that three amino acids (C, F, I) from the single amin
 
 Three transformations take place for this dataset. 
 
-`~/00-data/02-aac_dpc_values/c_m_TRANSFORMED.csv` and used throughout the rest of the analysis.
+`c_m_TRANSFORMED.csv` and used throughout the rest of the analysis.
 
 All work uses R[^118], RStudio[^119] and a machine learning library/framework `caret`.[^120]
 
