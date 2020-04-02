@@ -27,8 +27,7 @@ name = "mcc"
 [params]
 	math = true
 	# Blog description at the top of the homepage. Supports markdown.
-	description = "Scientist, Teacher & Student of R & Python programmer, focusing on Machine Learning, Biochemistry, Biotechnology with my sights set on Data Science.  
-	---"
+	description = "Scientist, Teacher & Student of R & Python programmer, focusing on Machine Learning, Biochemistry, Biotechnology with my sights set on Data Science."
 
 	# Add links to your accounts. Remove the ones you don't want to include.
 	# Main

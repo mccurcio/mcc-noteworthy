@@ -1,8 +1,10 @@
 ---
-date: "2019-05-28"
-title: About
+title: "About"
+date: '2019-05-28'
 type: section
 ---
+
+## Welcome  
 
 I have a broad background and believe that this works to my advantage.
 
